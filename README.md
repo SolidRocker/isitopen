@@ -1,5 +1,5 @@
 
-Webpage at https://solidrocker.github.io/isitopen/
+You can view the site at https://solidrocker.github.io/isitopen/
 
 ## Filtering Restaurants
 
