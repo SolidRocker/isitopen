@@ -31,5 +31,5 @@ You can also rename your friend's collections!
 To share a collection with your friends, click on collection -> Share.
 You will then be prompted to enter your friend's email address. Note that it must be:
  - An already registered user
- - A user whom this list is not shared to
+ - A user whom the collection is not shared to
  - A user other than yourself
