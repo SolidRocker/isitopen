@@ -1,68 +1,35 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+Webpage at https://solidrocker.github.io/isitopen/
 
-In the project directory, you can run:
+## Filtering Restaurants
 
-### `npm start`
+To look for a restaurant by name, or to check whether it's open at a specific time, use the FILTER table.
+Under [Filter Type], you can chose whether to filter by name or a timeslot.
+The [Filter Lits] section will then update accordingly.
+From there, choose the name or timeslot to check, and check out the available restaurants!
 
-Runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Collections
 
-The page will reload if you make edits.<br>
-You will also see any lint errors in the console.
+To gain access to collections, you first have to login.
+Upon logging in, you will be able to see both your collections and your shared collections.
+To create or view the collections, simply click on them!
 
-### `npm test`
+### Add Restaurant To Collection
 
-Launches the test runner in the interactive watch mode.<br>
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Once a collection is created, you can start browsing the restaurants.
+There is a red [Add To Collection] button next to the restaurant when you hover over it.
+Just click on it, and it will prompt you which collection you want to add it to!
 
-### `npm run build`
+### Renaming Collections
 
-Builds the app for production to the `build` folder.<br>
-It correctly bundles React in production mode and optimizes the build for the best performance.
+When you first create the collection, you will be prompted to give it a name.
+You can also change it later, by clicking on collecttion -> Rename.
+You can also rename your friend's collections!
 
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
+### Sharing Collections
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+To share a collection with your friends, click on collection -> Share.
+You will then be prompted to enter your friend's email address. Note that it must be:
+ - An already registered user
+ - A user whom this list is not shared to
+ - A user other than yourself
