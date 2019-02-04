@@ -1,0 +1,10 @@
+.collection-header {
+    text-align: left;
+    width: 80%;
+}
+
+.collection-header-loggedout {
+    background-color: #38cf83;
+    text-align: center;
+    width: 50%;
+}

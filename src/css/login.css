@@ -1,0 +1,27 @@
+.login-header {
+    width: 50%;
+    margin: 0 0 0 0;
+    background-color: #FFFFFF;
+    border: none;
+    text-align: left;
+    color:#606060;
+}
+
+.login-button {
+    border-radius: 4px;
+    background-color: #2240e6;
+    border: none;
+    padding: 10px 20px 10px 20px;
+    text-align: left;
+    color: #FCFCFC;
+    cursor: pointer;
+}
+
+.login-userlabel {
+    width: 50%;
+    margin: 0 0 0 0;
+    background-color: #FFFFFF;
+    border: none;
+    text-align: right;
+    color:#606060;
+}

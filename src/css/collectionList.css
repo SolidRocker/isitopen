@@ -1,0 +1,31 @@
+.list-button0, .list-button1, .list-button2, .list-button-shared {
+    width: 80%;
+    margin: 0 auto 0 auto;
+    border-radius: 4px;
+    background-color: #EEEEEE;
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    cursor: pointer;
+}
+
+.list-button0 {
+    background-color: #ffdfba;
+}
+
+.list-button1 {
+    background-color: #baffc9;
+}
+
+.list-button2 {
+    background-color: #ffffba;
+}
+
+.list-button-shared {
+    background-color: #ffffba;
+}
+
+button:disabled {
+    background-color: #808080;
+    cursor: default;
+}

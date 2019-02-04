@@ -1,0 +1,63 @@
+table {
+    border-collapse: collapse;
+    width: 80%;
+    margin: 3vh auto 0vh auto;
+}
+
+td, th {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: 'left';
+  }
+  
+tr:nth-child(even){
+    background-color: #f2f2f2;
+}
+
+.tr-entries:hover {
+    background-color: #ddd;
+}
+
+th {
+    padding: 12px;
+    background-color: rgb(139, 192, 228);
+    color: white;
+    text-align: 'left';
+}
+
+.header-restaurant {
+    width: 29%;
+}
+
+.header-hours {
+    width: 55%;
+}
+
+.header-support {
+    width: 20%;
+}
+
+.button {
+    display: inline-block;
+    border-radius: 4px;
+    background-color: #F4511E;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 5%;
+    cursor: pointer;
+    opacity: 0;
+}
+
+.button:disabled {
+    background-color: #808080;
+    cursor: default;
+}
+
+tr:hover .button {
+    display: inline-block;
+    opacity: 1;
+}
+
+
+  

@@ -1,0 +1,71 @@
+.modal-section {
+    border-radius: 4px;
+    padding-bottom: 10px;
+}
+
+.modal-header {
+    padding-top: 2px;
+    padding-bottom: 5px;
+    background-color: #DDDDDD;
+    font-weight: bold;
+    text-align: center;
+}
+
+.modal-content {
+    padding: 20px 0px 10px 0px;
+    text-align: center;
+}
+
+.modal-button0, .modal-button1, .modal-button2,
+.modal-button-cancel, .modal-button-ok, .modal-button-share {
+    min-width: 20%;
+    min-height: 35px;
+    margin: 5px 10px 0px 10px;
+    border-radius: 4px;
+    border: none;
+    padding: 5px 10px;
+    color: #000000;
+    font-weight: bold;
+    text-align: center;
+    cursor: pointer;
+}
+
+.modal-button0 {
+    background-color: #ffdfba;
+}
+
+.modal-button1 {
+    background-color: #baffc9;
+}
+
+.modal-button2 {
+    background-color: #ffffba;
+}
+
+.modal-button-cancel {
+    background-color: #F4511E;
+    color: #FFFFFF;
+}
+
+.modal-button-crossicon {
+    padding-right: 5px;
+    float: right;
+    cursor: pointer;
+}
+
+.modal-button-ok {
+    background-color: rgb(30, 123, 244);
+    color: #FFFFFF;
+}
+
+.modal-button-share {
+    background-color: rgb(38, 196, 64);
+    color: #FFFFFF;
+}
+
+.modal-input {
+    margin-bottom: 8px;
+    float: center;
+    text-align: center;
+
+}
